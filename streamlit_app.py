@@ -25,7 +25,7 @@ def get_gdp_data():
     DATA_FILENAME = Path(__file__).parent/'data/gdp_data.csv'
     raw_gdp_df = pd.read_csv(DATA_FILENAME)
 
-    MIN_YEAR = 1970
+    MIN_YEAR = 1965
     MAX_YEAR = 2022
 
     # The data above has columns like:
